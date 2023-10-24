@@ -1,0 +1,36 @@
+body{
+    background-color: #dba617;
+}
+
+#taco-img {
+    width: 300px;
+    height: 300px;
+
+}
+
+h2 {
+    color: white;
+}
+
+.logo {
+    background-color: rgb(51, 141, 255);
+    flex: 25%;
+}
+
+p {
+    color: aliceblue;
+}
+
+h3 {
+    color: black;
+}
+
+#button1 {
+    border: grey;
+    background-color: antiquewhite;
+}
+
+#button2 {
+    border: grey;
+    background-color: antiquewhite;
+}
