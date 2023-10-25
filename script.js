@@ -6,7 +6,9 @@ console.log(confirm)
 console.log(prompt)
 
 function place_order(){
-    console.log("Your order will contain"  prompt "tacos!!!")
+    console.log("Your order will contain" + prompt + "tacos!!!");  //This line confirms your order.
+    console.log("Your total is:" + prompt*5 + "USD."); //This line gives you the total $ spent.
+    console.group("Thank you for your purchase!!! 100% of your purchase will be dobated towards our caritable cause!"); //This line gives you a THANK YOU message.
 }
 
 place_order()
