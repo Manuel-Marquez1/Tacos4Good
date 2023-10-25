@@ -10,14 +10,7 @@ alert("Welcome to my New page!!!");
 const user_Name = prompt("What is your first name?");
 console.log(user_Name);
 
-const sauce = prompt("What is your favorite hot sauce brand?")
-console.log(sauce);
 
-const service = prompt("Do you like volunteering at nonprofits?")
-console.log(service);
-
-const permission = confirm("Do you have permission from an adult to eat spicy food?")
-console.log(permission)
 
 
 // Something new. In here you decide what you want to write to the document.
