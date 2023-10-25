@@ -1,7 +1,13 @@
-// The following will help us develop with better developer practices.
-"use strict"
 
-console.log("This is my nonprofit prototype webpage!!!");
-alert("Welcome to my New page!!!");
+confirm = window.confirm("Hey there! Would you like to order some tacos?");
+prompt = window.prompt("How many tacos would ou like to order?")
 
-console.log("Hola Manuel");
+console.log(confirm)
+console.log(prompt)
+
+function place_order(){
+    console.log("Your order will contain"  prompt "tacos!!!")
+}
+
+place_order()
+
