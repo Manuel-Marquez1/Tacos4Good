@@ -1,5 +1,8 @@
 body{
     background-color: #dcdcde;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 #taco-img {
@@ -38,4 +41,31 @@ h3 {
 #button3 {
     border: grey;
     background-color: antiquewhite;
+}
+
+.slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(100px * 18);
+}
+
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+img {
+    width: 50%;
 }
