@@ -8,7 +8,7 @@ console.log(prompt)
 function place_order(){
     console.log("Your order will contain" + prompt + "tacos!!!");  //This line confirms your order.
     console.log("Your total is:" + prompt*5 + "USD."); //This line gives you the total $ spent.
-    for (let prompt = 0; prompt >= 1; i++){
+    for (let prompt = 0; prompt >= 15; i++){
         console.log("Your tacos are being prepared!!! 100% of your purchase will be dobated towards our caritable cause!", prompt);
 
     }
